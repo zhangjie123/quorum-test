@@ -15,12 +15,12 @@ export TESSERA_JAR=/path/to/tessera-app-${version}-app.jar
 git clone https://github.com/zhangjie123/quorum-test
 ```
 4. Preparing node basic data
-	4.1 run init.sh
+4.1 run init.sh
 ```shell
 cd quorum-test
 /.init.sh
 ```
-	4.2 Create ETH Account
+4.2 Create ETH Account
 ```shell
 geth --datadir data account new
 ```
