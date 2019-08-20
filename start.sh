@@ -79,8 +79,8 @@ PRIVATE_CONFIG=data/tm.ipc nohup geth --datadir data $ARGS --permissioned --raft
 set +v
 
 echo
-echo "All nodes configured. See 'logs' for logs, and run e.g. 'geth attach tessera/geth.ipc' to attach to the Geth node."
-echo "To test sending a private transaction from Node 1 to Node 7, run './runscript.sh private-contract.js'"
+echo "Node configured. See 'data/logs' for logs, and run e.g. 'geth attach data/geth.ipc' to attach to the Geth node."
+echo "To test sending a private transaction from Node to other Node, run './runscript.sh private-contract.js'"
 
 exit 0
 
