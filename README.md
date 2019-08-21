@@ -46,10 +46,17 @@ cat data/tm.pub
 ```
 Please write down your public key that just output. e.g. "7PSKhCIkLnqPzxuMp3MJ7xGmxC5/0VhmyWQx7BlUTy4="
 
-### 4.5 Send configuration data to me
+### 4.5 Get Started Instructions - Send configuration data below to iAPPS
 ```
 1. ETH account public address
 2. Node key public address
 3. Tessera public key
 4. Your server public ip address
 ```
+
+## 5 Setup enviroment
+
+### 5.1 Setup permissioned nodes and static nodes
+Afert I sent to you "permissioned-nodes.json" and "static-nodes.json"
+copy these 2 files to your "data" directory, Do not change any filename
+
