@@ -55,8 +55,6 @@ then
 	echo "  1337 is the recommend ChainId for Geth private clients."
 fi
 
-mkdir -p logs
-
 if [ "$privacyImpl" == "tessera" ]; then
   echo "[*] Starting Tessera nodes"
   ./tessera-start.sh ${tesseraOptions}
