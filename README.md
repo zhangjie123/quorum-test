@@ -26,7 +26,8 @@ cd quorum-test
 ```shell
 geth --datadir data account new
 ```
-Please write down the public address that just generated, e.g. <6e072e22d42164f4c647ac6898cfb4263a2bbae4>
+Please write down the public address that just generated, e.g. <6e072e22d42164f4c647ac6898cfb4263a2bbae4>,
+#### Please create a new txt file in root directory. named passwords.txt and put your address passphrase at the first line. If you do not have set any password, Make sure the first is empty.
 
 ### 4.3 Generate nodekey
 ```shell
@@ -56,7 +57,13 @@ Please write down your public key that just output. e.g. "7PSKhCIkLnqPzxuMp3MJ7x
 
 ## 5 Setup enviroment
 
-### 5.1 Setup permissioned nodes and static nodes
+### 5.1 Set passwords.txt for your eth base account
+
+```
+If you have set a passord 
+```
+
+### 5.2 Setup permissioned nodes and static nodes
 Afert I sent to you "permissioned-nodes.json" and "static-nodes.json"
 copy these 2 files to your "data" directory, Do not change any filename
 
