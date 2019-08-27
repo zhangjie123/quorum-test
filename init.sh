@@ -9,10 +9,6 @@ mkdir -p data/logs
 echo "[*] Configuring node (permissioned)"
 mkdir -p data/{keystore,geth}
 
-echo "[*] Initialising geth genesis"
-
-geth --datadir data init genesis.json
-
 echo "[*] Initialising Tessera configuration"
 
 currentDir=$(pwd)
