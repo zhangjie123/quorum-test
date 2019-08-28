@@ -1,4 +1,14 @@
-# Quorum test
+# Setup KDN quorum node
+
+# System Requirements
+
+```
+OS: Ubuntu 16.04.6 LTS
+CPUs: 2
+Memory: 8GB
+Harddisk: 50GB
+```
+
 
 ## 1. Setup quorum
 	url: https://github.com/jpmorganchase/quorum/wiki/Getting-Set-Up
@@ -54,16 +64,3 @@ Please write down your public key that just output. e.g. "7PSKhCIkLnqPzxuMp3MJ7x
 3. Tessera public key
 4. Your server public ip address
 ```
-
-## 5 Setup enviroment
-
-### 5.1 Set passwords.txt for your eth base account
-
-```
-If you have set a passord 
-```
-
-### 5.2 Setup permissioned nodes and static nodes
-Afert I sent to you "permissioned-nodes.json" and "static-nodes.json"
-copy these 2 files to your "data" directory, Do not change any filename
-
